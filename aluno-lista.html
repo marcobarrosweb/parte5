@@ -1,0 +1,20 @@
+<div class="col-sm-4" ng-controller="AlunoListController">
+	<div class="panel panel-default">  
+		<div class="panel-heading">LISTA DE ALUNOS</div> 
+		<table class="table"> 
+			<thead> 
+				<tr> 
+					<th>Nome</th> 
+					<th>Sobrenome</th> 
+				</tr> 
+			</thead> 
+			<tbody> 
+				<tr ng-repeat="aluno in alunos"> 
+					<td>{{aluno.nome}}</td> 
+					<td>{{aluno.sobrenome}}</td> 
+				</tr> 
+			</tbody> 
+		</table> 
+		
+	</div>
+</div>
